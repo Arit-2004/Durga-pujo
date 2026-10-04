@@ -6,13 +6,17 @@ function Hero() {
     >
       {/* Background Video */}
       <video
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover bg-black"
         autoPlay
         muted
         loop
         playsInline
+        preload="auto"
       >
-        <source src="/videos/motionvideo.mp4" type="video/mp4" />
+        <source
+           src="/videos/motionvideo.mp4"
+          type="video/mp4"
+        />
       </video>
 
       {/* Dark Overlay */}
