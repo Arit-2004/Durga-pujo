@@ -12,7 +12,7 @@ function Hero() {
         loop
         playsInline
       >
-        <source src="public/videos/motionvideo.mp4" type="video/mp4" />
+        <source src="/videos/motionvideo.mp4" type="video/mp4" />
       </video>
 
       {/* Dark Overlay */}
